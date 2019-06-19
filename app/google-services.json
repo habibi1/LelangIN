@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565167439400",
+    "firebase_url": "https://lelangin-ebd9e.firebaseio.com",
+    "project_id": "lelangin-ebd9e",
+    "storage_bucket": "lelangin-ebd9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565167439400:android:c66cc011ea7d3159",
+        "android_client_info": {
+          "package_name": "com.tugasmobile.lelangin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565167439400-612c2lcsq4l5rjia0ohke78tht7cb7ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugasmobile.lelangin",
+            "certificate_hash": "5d665f5004852a5d0ce91d18a7f0753fb91f21d6"
+          }
+        },
+        {
+          "client_id": "565167439400-sunc2decb7hql2hrk138a6l2oe02tv70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZT1zZgoVKysh61CUORPNl-FG4_LmQkME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565167439400-sunc2decb7hql2hrk138a6l2oe02tv70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

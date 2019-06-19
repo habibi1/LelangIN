@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailProductActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/detail_product_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_person_black_24dp"
+                tools:ignore="MissingConstraints" />
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/detail_product_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_favorite_black_24dp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/detail_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20pt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.393" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/setPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bidding"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="339dp">
+
+            <TextView
+                android:id="@+id/detail_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"/>
+
+            <TextView
+                android:id="@+id/detail_product_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="owner"/>
+
+            <TextView
+                android:id="@+id/detail_product_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
